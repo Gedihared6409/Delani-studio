@@ -1,16 +1,18 @@
-@import url('http://fonts.googleap.com/css?family=lato:400,700');
-*{ 
-    margin: 0px;
-    padding: 0px;
-}
 body{
     margin: 100px;
     margin-top: 0px !important;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: white;
-
 }
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('http://fonts.googleap.com/css?family=lato:400,700');
+
 #showcase {
     background-image: url(/assets/backgrounds/h_img.jpg);
     height:100vh;
@@ -28,17 +30,14 @@ body{
 .title{
     position: relative;
     top: 80px;
-    /* left: 500px; */
     text-align: center;
 }
 #subheading{
     position: relative;
-    /* left: -100px; */
 }
 .paragraph{
     position: relative;
     top: 80px;
-    /* left: 320px; */
     text-align: center;
 }
 .mouse {
@@ -70,7 +69,7 @@ body{
 .icondiv > h2 {
     text-align: center;
 }
-/*css for the portfolio*/
+
 .col-md-3 {
     padding: 15px;
 }
@@ -91,10 +90,10 @@ body{
 .form{
     filter: alpha(opacity=50);
     opacity: 0.5;
-    zoom: 1;
+    zoom: 0;
 }
 .contact-us{
-    height: 380px !important;
+    height: 380px ;
 }
 .button{
     position:relative;
