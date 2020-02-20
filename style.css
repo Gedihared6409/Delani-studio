@@ -1,0 +1,129 @@
+@import url('http://fonts.googleap.com/css?family=lato:400,700');
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 100px;
+    margin-top: 0px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+
+}
+#showcase {
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:relative;
+    background-repeat:no-repeat;
+    background-position: relative;    
+}
+.logo {
+    position: relative;
+    left: 550px;
+    margin-top: 120px;
+}
+
+.title{
+    position: relative;
+    top: 80px;
+    /* left: 500px; */
+    text-align: center;
+}
+#subheading{
+    position: relative;
+    /* left: -100px; */
+}
+.paragraph{
+    position: relative;
+    top: 80px;
+    /* left: 320px; */
+    text-align: center;
+}
+.mouse {
+    position: relative;
+    top: 210px;
+    margin-left: 50%;
+}
+.section-a{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+} 
+.section-b{
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    height: 300px;
+    color: #fff;
+}
+#cd {
+    position: relative;
+    text-align: center;
+    top: 48px;
+}
+.icondiv {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
+.icondiv > h2 {
+    text-align: center;
+}
+/*css for the portfolio*/
+.col-md-3 {
+    padding: 15px;
+}
+.col-md-3:hover {
+    opacity: 0.3;
+}
+.col-md-3 > img{
+    width: 200px;
+}
+
+.form_input{
+    width: 400px !important;
+    margin-bottom: 20px;
+}
+#contact-us{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+}
+.form{
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    zoom: 1;
+}
+.contact-us{
+    height: 380px !important;
+}
+.button{
+    position:relative;
+    background-color: white;
+        margin-left: 43%;
+}
+.footer > ul >li{
+    display: inline;
+    position: relative;
+    margin-left: 1%;
+    position: relative;
+}
+.end {
+    margin-left: 19%;
+    color: black;
+    text-align: center;
+}
+.footer {
+    margin-left: 25%;
+
+}
+.design-hidden {
+    display: none;
+}
+.development-hidden {
+    display: none;
+}
+.product-hidden {
+    display: none;
+}
+
+
