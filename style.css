@@ -89,8 +89,8 @@ body{
 }
 .form{
     filter: alpha(opacity=50);
-    opacity: 0.5;
-    zoom: 0;
+    opacity: 0.7;
+    zoom: 1;
 }
 .contact-us{
     height: 380px ;
