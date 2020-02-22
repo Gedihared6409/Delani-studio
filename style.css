@@ -91,6 +91,7 @@ body{
 .form{
     opacity: 0.5;
     margin-left: 200px;
+    background: transparent;
 
 }
 .contact-us{

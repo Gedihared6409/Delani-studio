@@ -21,4 +21,12 @@ $(document).ready(function() {
 
 
 });
+// getit(){
+//   var ali = getElementById("name").value
+//   alert 
 
+// }
+function getit(){
+  neme = document.getElementById("name").value;
+  alert( neme + " we have received your message. Thank you for reaching out to us. ")
+}
