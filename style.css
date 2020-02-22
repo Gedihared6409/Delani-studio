@@ -100,20 +100,22 @@ body{
     background-color: white;
         margin-left: 43%;
 }
-.footer > ul >li{
+/* .footer > ul >li{
     display: inline;
     position: relative;
     margin-left: 1%;
     position: relative;
-}
+    padding-left: 100px;
+} */
 .end {
-    margin-left: 19%;
+    
     color: black;
-    text-align: center;
+    margin-left: 200px;
 }
 .footer {
-    margin-left: 25%;
-
+    
+  
+    margin-left: 500px;
 }
 .design-hidden {
     display: none;
@@ -128,3 +130,7 @@ h2{
     text-align: center;
 }
 
+.footer > ul >li{
+display: inline;
+
+}
