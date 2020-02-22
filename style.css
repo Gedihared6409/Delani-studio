@@ -126,8 +126,13 @@ body{
 .product-hidden {
     display: none;
 }
+h3{
+    text-align: center;
+    color: white;
+}
 h2{
     text-align: center;
+    color:black;
 }
 
 .footer > ul >li{
