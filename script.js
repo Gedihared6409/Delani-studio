@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 
   $(document).ready(function() {
-    $(".clickable2").click(function() {
+    $(".clickable3").click(function() {
         $(".product-hidden").toggle();
         $(".product-showing").toggle();
     });
@@ -22,9 +22,3 @@ $(document).ready(function() {
 
 });
 
-//   $(document).ready(function() {
-//     $(".clickable2").click(function() {
-//         $(".development-hidden").toggle();
-//         $(".development-showing").toggle();
-//     });
-//   });
