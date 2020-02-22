@@ -19,13 +19,12 @@ body{
     background-size:cover;
     background-position:relative;
     background-repeat:no-repeat;
-    background-position: relative;    
     color: white;
 }
 .logo {
     position: relative;
-    left: 550px;
-    margin-top: 120px;
+    left: 700px;
+    margin-top: 200px;
 }
 
 .title{
