@@ -73,9 +73,9 @@ body{
 .col-md-3 {
     padding: 15px;
 }
-.col-md-3:hover {
+/* .col-md-3:hover {
     opacity: 0.3;
-}
+} */
 .col-md-3 > img{
     width: 200px;
 }
@@ -131,3 +131,77 @@ h2{
 display: inline;
 
 }
+#ali{
+    display:none;
+}
+.por1{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+.por2{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+.por3{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+.por4{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+.por5{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+.por6{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+.por7{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+}
+
+.por8{
+    box-sizing: content-box;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+
+}
+
