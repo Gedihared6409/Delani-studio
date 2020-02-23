@@ -27,6 +27,12 @@ $(document).ready(function() {
 
 // }
 function getit(){
-  neme = document.getElementById("name").value;
-  alert( neme + " we have received your message. Thank you for reaching out to us. ")
+  var neme = document.getElementById("name").value;
+  var ema = document.getElementById("email").value;
+  var messag = document.getElementById("textarea").value;
+  if (neme == "" || ema == "" || messag == ""){
+    alert ("enter your name, email and a commment")
+  }
+   else alert( neme + " we have received your message. Thank you for reaching out to us. ")
 }
+
