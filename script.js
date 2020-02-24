@@ -22,10 +22,15 @@ $(document).ready(function() {
   });
   $('form').submit(function(){
     var name = $('#name').val()
+    var email = $('#email').val()
+    var message = $('#message').val()
   //   var name = document.getElementByName("MMERGE1").value;
   // var email = document.getElementByName(" EMAIL").value;
   // var message = document.getElementByName("MMERGE2").value;
-  alert( name + "we have received your message. Thank you fro reaching out to us. ") ;
+  if (name == ""|| message == "" || email == ""){
+    alert ("fill all the form");
+  }
+   else alert( name + "we have received your message. Thank you fro reaching out to us. ") ;
   })
 });
 
