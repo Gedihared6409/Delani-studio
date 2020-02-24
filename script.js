@@ -1,7 +1,7 @@
 $(document).ready(function (){
 $(".clickable2").click(function(){
     $(".development-hidden").toggle()
-    $(".development-showing").toggle()
+   $(".development-showing").toggle()
 });
 
 $(document).ready(function() {
@@ -18,7 +18,12 @@ $(document).ready(function() {
         $(".product-showing").toggle();
     });
   });
-
+  $(document).ready(function(){
+    var neme = document.getElementById("name").value;
+  var ema = document.getElementById("mce-success-response").value;
+  var messag = document.getElementById("textarea").value;
+  alert("thank you " + neme);
+  })
 
 });
 
@@ -43,15 +48,15 @@ $(document).ready(function() {
       
 
 
-function getit(){
-  var neme = document.getElementById("name").value;
-  var ema = document.getElementById("email").value;
-  var messag = document.getElementById("textarea").value;
-  if (neme == "" || ema == "" || messag == ""){
-    alert ("enter your name, email and a commment")
-  }
-   else alert( neme + " we have received your message. Thank you for reaching out to us. ")
-}
+// function getit(){
+//   var neme = document.getElementById("name").value;
+//   var ema = document.getElementById("email").value;
+//   var messag = document.getElementById("textarea").value;
+//   if (neme == "" || ema == "" || messag == ""){
+//     alert ("enter your name, email and a commment")
+//   }
+//    else alert( neme + " we have received your message. Thank you for reaching out to us. ")
+// }
 
 
 
