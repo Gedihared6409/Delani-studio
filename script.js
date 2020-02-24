@@ -1,3 +1,5 @@
+
+
 $(document).ready(function (){
 $(".clickable2").click(function(){
     $(".development-hidden").toggle()
@@ -18,14 +20,16 @@ $(document).ready(function() {
         $(".product-showing").toggle();
     });
   });
-  $(document).ready(function(){
-    var neme = document.getElementById("name").value;
-  var ema = document.getElementById("mce-success-response").value;
-  var messag = document.getElementById("textarea").value;
-  alert("thank you " + neme);
+  $('form').submit(function(){
+    var name = $('#name').val()
+  //   var name = document.getElementByName("MMERGE1").value;
+  // var email = document.getElementByName(" EMAIL").value;
+  // var message = document.getElementByName("MMERGE2").value;
+  alert( name + "we have received your message. Thank you fro reaching out to us. ") ;
   })
-
 });
+
+
 
 
 // $(document).ready(function(){
@@ -48,15 +52,7 @@ $(document).ready(function() {
       
 
 
-// function getit(){
-//   var neme = document.getElementById("name").value;
-//   var ema = document.getElementById("email").value;
-//   var messag = document.getElementById("textarea").value;
-//   if (neme == "" || ema == "" || messag == ""){
-//     alert ("enter your name, email and a commment")
-//   }
-//    else alert( neme + " we have received your message. Thank you for reaching out to us. ")
-// }
+
 
 
 
