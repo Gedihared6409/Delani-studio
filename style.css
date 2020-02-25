@@ -218,3 +218,7 @@ display: inline;
 .footer ul{
     padding-top: 50px;
 }
+
+::placeholder{
+    color: white;
+}

@@ -24,41 +24,13 @@ $(document).ready(function() {
     var name = $('#name').val()
     var email = $('#email').val()
     var message = $('#message').val()
-  //   var name = document.getElementByName("MMERGE1").value;
-  // var email = document.getElementByName(" EMAIL").value;
-  // var message = document.getElementByName("MMERGE2").value;
+
   if (name == ""|| message == "" || email == ""){
     alert ("fill all the form");
   }
-   else alert( name + "we have received your message. Thank you fro reaching out to us. ") ;
+   else alert( name +  "  we have received your message. Thank you fro reaching out to us. ") ;
   })
 });
-
-
-
-
-// $(document).ready(function(){
- 
-
-//       $("#first").mouseover(function(){
-//         $("#first").fadeTo("slow", 0.5 )
-//         // $("#first").text( "mouse over" );
-        
-        
-//       })
-  
-      // $("#first").mouseout(function(){
-      //   $("#first").fadeTo("slow", 0 )
-      //   // $("#first").text( "mouse over" );
-        
-        
-      // }) 
-        
-      
-
-
-
-
 
 
 $(document).ready(function(){
